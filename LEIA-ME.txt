@@ -1,0 +1,14 @@
+QrcodeTerminal 2.7
+
+- Tela de operador sem campos de IP/porta.
+- IP da impressora visível para o operador.
+- Botão para abrir as configurações de impressão do Android e habilitar o serviço.
+- Área administrativa protegida por PIN para configurar IP/porta, testar conexão, imprimir teste e consultar diagnóstico.
+- Mantém o armazenamento local por tablet e o serviço de impressão da versão 2.6.
+
+PIN inicial do administrador: 221879
+
+A proteção é um bloqueio de acesso dentro do aplicativo; não substitui o bloqueio de tela ou gerenciamento do Android contra usuários com acesso técnico ao aparelho.
+O Android exige que o usuário habilite o serviço de impressão nas configurações do sistema. O botão do operador abre essa tela; o aplicativo não consegue ativar essa permissão silenciosamente.
+\nAtualização de comprovante: o operador pode testar a conexão TCP e imprimir comprovante ESC/POS com status, IP, porta e data/hora. A configuração/habilitação do serviço de impressão Android continua em um botão separado, pois depende de autorização nas configurações do sistema. A impressão do comprovante confirma que o equipamento aceitou a conexão TCP e recebeu os dados; confirme a saída física do papel.\n
+Ícone do aplicativo: identidade visual QrcodeTerminal adicionada aos recursos mipmap e adaptive icon para Android.
